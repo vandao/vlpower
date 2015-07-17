@@ -1,0 +1,43 @@
+<modification>
+	<id>Online Plus</id>
+	<version>1.0</version>
+	<vqmver>1.2.3</vqmver>
+	<author>grgr - admin@vger.co.uk</author>
+	
+	<file name="catalog/controller/common/header.php" error="skip">
+        <operation error="skip">
+            <search position="replace"><![CDATA[
+$this->load->model('tool/online');            ]]></search>
+            <add><![CDATA[
+$this->load->model('tool/online_plus');            ]]></add>
+        </operation>
+        <operation error="skip">
+            <search position="replace"><![CDATA[
+$this->model_tool_online->whosonline($ip, $this->customer->getId(), $url, $referer);            ]]></search>
+            <add><![CDATA[
+$this->model_tool_online_plus->whosonlineplus($ip, $this->customer->getId(), $url, $referer);            ]]></add>
+        </operation>
+	</file>
+	<file name="catalog/controller/common/footer.php" error="skip">
+        <operation error="skip">
+            <search position="replace"><![CDATA[
+$this->load->model('tool/online');            ]]></search>
+            <add><![CDATA[
+$this->load->model('tool/online_plus');            ]]></add>
+        </operation>
+        <operation error="skip">
+            <search position="replace"><![CDATA[
+$this->model_tool_online->whosonline($ip, $this->customer->getId(), $url, $referer);            ]]></search>
+            <add><![CDATA[
+$this->model_tool_online_plus->whosonlineplus($ip, $this->customer->getId(), $url, $referer);            ]]></add>
+        </operation>
+	</file>
+	<file name="admin/controller/common/header.php">
+        <operation>
+            <search position="after"><![CDATA[
+$this->data['report_customer_online'] = $this->url->link('report/customer_online', 'token=' . $this->session->data['token'], 'SSL');            ]]></search>
+            <add><![CDATA[
+$this->data['report_customer_online'] = $this->url->link('report/customer_online_plus', 'token=' . $this->session->data['token'], 'SSL');            ]]></add>
+        </operation>
+	</file>
+</modification>

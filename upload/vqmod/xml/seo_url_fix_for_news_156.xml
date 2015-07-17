@@ -1,0 +1,30 @@
+<modification>
+	<id><![CDATA[SEO URL Fix for News]]></id>
+	<version><![CDATA[1.0]]></version>
+	<vqmver><![CDATA[2.1.7]]></vqmver>
+	<author><![CDATA[Danail Delchev]]></author>
+	<file name="/catalog/controller/common/seo_url.php">
+		<operation>
+			<search position="after" offset="1" error="log"><![CDATA[$this->request->get['manufacturer_id'] = $url[1];]]></search>
+			<add><![CDATA[if ($url[0] == 'news_id') {
+			$this->request->get['news_id'] = $url[1];
+			}]]></add>
+		</operation>
+	</file>
+	<file name="/catalog/controller/common/seo_url.php">
+		<operation>
+			<search position="after" offset="1" error="log"><![CDATA[$this->request->get['route'] = 'information/information';]]></search>
+			<add><![CDATA[ elseif (isset($this->request->get['news_id'])) {
+				   $this->request->get['route'] = 'information/news';
+				}
+				]]></add>
+		</operation>
+	</file>
+	<file name="/catalog/controller/common/seo_url.php">
+		<operation>
+			<search position="replace" offset="0" error="log"><![CDATA[if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {]]></search>
+			<add><![CDATA[if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')  || ($data['route'] == 'information/news' && $key == 'news_id')) {
+			]]></add>
+		</operation>
+	</file>
+</modification>

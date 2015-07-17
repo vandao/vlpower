@@ -1,0 +1,29 @@
+---------- Date: 2015-06-26 14:22:56 ~ IP : 14.161.34.7 ----------
+REQUEST URI : /chevrolet-captiva
+MOD DETAILS:
+   modFile   : /home/vandao/web/muabanxeoto24h/upload/vqmod/xml/seo-single-url-products-categories.xml
+   id        : SEO Single Url - Category Products
+   version   : 1
+   vqmver    : 2.1.7
+   author    : www.zadenzo.com
+
+File Name    : catalog/controller/product/category.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'])
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-26 15:42:37 ~ IP : 157.55.39.46 ----------
+REQUEST URI : /chevrolet
+MOD DETAILS:
+   modFile   : /home/vandao/web/muabanxeoto24h/upload/vqmod/xml/seo-single-url-products-manufacturers.xml
+   id        : SEO Single Url - Category Manufacturers
+   version   : 1
+   vqmver    : 2.1.7
+   author    : www.zadenzo.com
+
+File Name    : catalog/controller/product/manufacturer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->url->link('product/product', $url . '&manufacturer_id=' . $result['manufacturer_id'] . '&product_id=' . $result['product_id'])
+
+----------------------------------------------------------------------
+
+

@@ -1,0 +1,5 @@
+a:1:{i:1;a:8:{s:4:"type";s:1:"2";s:13:"block_heading";a:2:{i:10;s:0:"";i:1;s:0:"";}s:13:"block_content";a:2:{i:10;s:0:"";i:1;s:0:"";}s:4:"html";a:2:{i:10;s:0:"";i:1;s:561:"&lt;div class=&quot;row banners hidden-xs&quot;&gt;
+ &lt;div class=&quot;col-sm-4&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;image/data/banner-01.png&quot; alt=&quot;Image&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;div class=&quot;col-sm-4&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;image/data/banner-02.png&quot; alt=&quot;Image&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;div class=&quot;col-sm-4&quot;&gt;&lt;a href=&quot;#&quot;&gt;&lt;img src=&quot;image/data/banner-03.png&quot; alt=&quot;Image&quot;&gt;&lt;/a&gt;&lt;/div&gt;
+ &lt;/div&gt;";}s:9:"layout_id";s:1:"1";s:8:"position";s:17:"preface_fullwidth";s:6:"status";s:1:"1";s:10:"sort_order";s:0:"";}}

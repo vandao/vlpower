@@ -1,0 +1,18 @@
+/*
+ * digned by Thong Le
+ * March 2015
+ */
+/* Visitor Counter styles */
+.vfleft{float:left;}
+.vfright{float:right;}
+.vfclear{clear:both;}
+.valeft{text-align:left;}
+.varight{text-align:right;}
+.vacenter{text-align:center;}
+#vvisit_counter106 .vstats_counter{margin-top: 7px;}
+#vvisit_counter106 .vstats_title{margin-top: 3px;}
+#vvisit_counter106 .vstats_number{margin-top: 0px;}
+#vvisit_counter106 .vrow{height:20px;}
+#vvisit_counter106 .vstats_icon{margin-right:5px;}
+#vvisit_counter106{padding:5px;}
+.hr{margin-bottom: 5px;}

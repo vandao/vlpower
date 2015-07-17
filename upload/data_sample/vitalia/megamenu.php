@@ -1,0 +1,1 @@
+a:1:{i:0;a:12:{s:9:"layout_id";s:5:"99999";s:8:"position";s:4:"menu";s:6:"status";s:1:"1";s:10:"sort_order";i:0;s:11:"orientation";s:1:"0";s:10:"search_bar";i:0;s:15:"navigation_text";a:2:{i:10;s:0:"";i:1;s:0:"";}s:9:"home_text";a:2:{i:10;s:0:"";i:1;s:0:"";}s:10:"full_width";s:1:"0";s:9:"home_item";s:4:"icon";s:9:"animation";s:5:"slide";s:14:"animation_time";i:500;}}

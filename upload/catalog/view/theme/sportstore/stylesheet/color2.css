@@ -1,0 +1,106 @@
+body { background-color:#fff;background-image:url(../images/patterns/pattern_2.png);color:#626262; }
+a { color:#626262; }
+
+/* Fonts */
+
+.orange, div.box-category ul li ul li a { color:#1a3c7b; }
+.custom-orange { color:#1a3c7b; }
+.green { color:#626262; }
+.white { color:#fff; }
+#top .white { color:#836801; }
+.grey-50 { color:#626262; }
+.grey-30 { color:#808080; }
+div#search p { color:#bfbfbf !important; }
+
+/* Top bar */
+
+div#top-bar { border-top:3px solid #1a3c7b; }
+
+/* Buttons */
+
+.button-green { background:#f6b800;position:relative;background-image: linear-gradient(bottom, #f6b800 0%, #fbda04 94%);background-image: -o-linear-gradient(bottom, #f6b800 0%, #fbda04 94%);background-image: -moz-linear-gradient(bottom, #f6b800 0%, #fbda04 94%);background-image: -webkit-linear-gradient(bottom, #f6b800 0%, #fbda04 94%);background-image: -ms-linear-gradient(bottom, #f6b800 0%, #fbda04 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #f6b800),color-stop(0.94, #fbda04));border-radius:15px;-webkit-border-radius: 15px;-moz-border-radius: 15px;-pie-background: linear-gradient(#fbda04, #f6b800);box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.40);-webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.40);-moz-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.40);behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+.button-green:hover { background-image: linear-gradient(bottom, #fad102 0%, #ffdb04 94%);background-image: -o-linear-gradient(bottom, #fad102 0%, #ffdb04 94%);background-image: -moz-linear-gradient(bottom, #fad102 0%, #ffdb04 94%);background-image: -webkit-linear-gradient(bottom, #fad102 0%, #ffdb04 94%);background-image: -ms-linear-gradient(bottom, #fad102 0%, #ffdb04 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #fad102),color-stop(0.94, #ffdb04));-pie-background: linear-gradient(#ffdb04, #fad102);}
+
+.button { background:#a8a8a8;position:relative;background-image: linear-gradient(bottom, #a8a8a8 0%, #d1d1d1 94%);background-image: -o-linear-gradient(bottom, #a8a8a8 0%, #d1d1d1 94%);background-image: -moz-linear-gradient(bottom, #a8a8a8 0%, #d1d1d1 94%);background-image: -webkit-linear-gradient(bottom, #a8a8a8 0%, #d1d1d1 94%);background-image: -ms-linear-gradient(bottom, #a8a8a8 0%, #d1d1d1 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #a8a8a8),color-stop(0.94, #d1d1d1));border-radius:15px;-webkit-border-radius: 15px;-moz-border-radius: 15px;-pie-background: linear-gradient(#d1d1d1, #a8a8a8);box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.50);-webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.50);-moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.50);behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+.button:hover { background-image: linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -o-linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -moz-linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -webkit-linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -ms-linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #969696),color-stop(0.94, #b3b3b3));-pie-background: linear-gradient(#b3b3b3, #969696); }
+
+/* Categories */
+
+div#categories { background:#f6b800;background-image: linear-gradient(bottom, #f6b800 0%, #fbda13 94%);background-image: -o-linear-gradient(bottom, #f6b800 0%, #fbda13 94%);background-image: -moz-linear-gradient(bottom, #f6b800 0%, #fbda13 94%);background-image: -webkit-linear-gradient(bottom, #f6b800 0%, #fbda13 94%);background-image: -ms-linear-gradient(bottom, #f6b800 0%, #fbda13 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #f6b800),color-stop(0.94, #fbda13));-pie-background: linear-gradient(#fbda13, #f6b800);position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+div#categories ul li.standard div { border:3px solid #f6b800;border-top:none; }
+
+/* Submenu */
+
+div#submenu { background:#1d1d1d;background-image: linear-gradient(bottom, #1d1d1d 0%, #2b2b2b 60%);background-image: -o-linear-gradient(bottom, #1d1d1d 0%, #2b2b2b 60%);background-image: -moz-linear-gradient(bottom, #1d1d1d 0%, #2b2b2b 60%);background-image: -webkit-linear-gradient(bottom, #1d1d1d 0%, #333333 60%);background-image: -ms-linear-gradient(bottom, #1d1d1d 0%, #2b2b2b 60%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #1d1d1d),color-stop(0.6, #2b2b2b));-pie-background: linear-gradient(#2b2b2b, #1d1d1d);position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+/* Content -> Box color1 */
+
+div.box-color-1 h3.box-color-1-title { background:#f7c115;background-image: linear-gradient(bottom, #f7c115 0%, #fbdc05 94%);background-image: -o-linear-gradient(bottom, #f7c115 0%, #fbdc05 94%);background-image: -moz-linear-gradient(bottom, #f7c115 0%, #fbdc05 94%);background-image: -webkit-linear-gradient(bottom, #f7c115 0%, #fbdc05 94%);background-image: -ms-linear-gradient(bottom, #f7c115 0%, #fbdc05 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #f7c115),color-stop(0.94, #fbdc05));-pie-background: linear-gradient(#fbdc05, #f7c115);position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+/* Content -> Box color2 */
+
+div.box-color-2 h3.box-color-2-title { background:#0f255c;background-image: linear-gradient(bottom, #0f255c 0%, #325a95 94%);background-image: -o-linear-gradient(bottom, #0f255c 0%, #325a95 94%);background-image: -moz-linear-gradient(bottom, #0f255c 0%, #325a95 94%);background-image: -webkit-linear-gradient(bottom, #0f255c 0%, #325a95 94%);background-image: -ms-linear-gradient(bottom, #0f255c 0%, #325a95 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #0f255c),color-stop(0.94, #325a95));-pie-background: linear-gradient(#325a95, #0f255c);position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+/* Content -> Box color3 */
+
+div.box-color-3 h3.box-color-3-title { background:#7b7b7b;background-image: linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -o-linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -moz-linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -webkit-linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -ms-linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #7b7b7b),color-stop(0.94, #aeaeae));-pie-background: linear-gradient(#aeaeae, #7b7b7b);position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+/* Footer */
+
+div#footer { width:100%;background:url(../images/bg-footer2.png) top left; }
+
+/* Top bar */
+
+div#top-bar { background:url(../images/bg-top-bar2.png) repeat-x; }
+
+/* Top bar -> Currency switcher */
+
+div#currency_switcher, div#language_switcher { background:url(../images/bottom2.png) top right no-repeat;}
+
+/* Top -> Cart */
+
+div#top #cart { background:url(../images/cart-icon2.png) top right no-repeat; }
+
+/* Content -> Bestsellers */
+
+ul.list-items li div.text .price { color:#836801; }
+ul.btn li a { background:url(../images/bullets2.png) no-repeat; }
+
+.slideshow .nivo-controlNav a {
+	background:url(../images/bullets2.png) no-repeat;
+}
+
+/* Content -> Newest products */
+
+.price { color:#836801 !important;  }
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-next-horizontal {
+    position: absolute;
+    top: 80px;
+    right: -25px;
+    width: 15px;
+    height: 47px;
+    cursor: pointer;
+    background:url(../images/right.png), url(../images/patterns/pattern_02.png), #fff;behavior: url(catalog/view/theme/sportstore/js/PIE.htc);
+}
+
+
+.jcarousel-prev-horizontal {
+    position: absolute;
+    top: 80px;
+    left: -15px;
+    width: 15px;
+    height: 48px;
+    cursor: pointer;
+    background:url(../images/left.png), url(../images/patterns/pattern_02.png), #fff;behavior: url(catalog/view/theme/sportstore/js/PIE.htc);
+}
+
+
+.switcher .option, .switcher .option a { color:#d2d2d2 !important; }
+
+#top #cart .cart td a { color:#fff !important; }
+#top #cart table.total { color:#d2d2d2 !important; }

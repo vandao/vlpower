@@ -1,0 +1,28 @@
+---------- Date: 2015-07-16 06:36:54 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : D:\Web\vlpower\upload\vqmod/xml/seo_url_fix_for_news_156.xml
+   id        : SEO URL Fix for News
+   version   : 1.0
+   vqmver    : 2.1.7
+   author    : Danail Delchev
+
+File Name    : /catalog/controller/common/seo_url.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-07-16 08:44:29 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /chevrolet-captiva
+MOD DETAILS:
+   modFile   : D:\Web\vlpower\upload\vqmod/xml/seo-single-url-products-categories.xml
+   id        : SEO Single Url - Category Products
+   version   : 1
+   vqmver    : 2.1.7
+   author    : www.zadenzo.com
+
+File Name    : catalog/controller/product/category.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'])
+----------------------------------------------------------------------
+
+

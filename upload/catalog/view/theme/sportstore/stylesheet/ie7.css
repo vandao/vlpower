@@ -1,0 +1,5 @@
+/* Content -> Banners */
+
+ul.banners { padding:19px 0px 0px 0px; }
+ul.banners li { clear:both;padding:1px 0px 0px 0px; }
+ul.banners li a img { display:block; }

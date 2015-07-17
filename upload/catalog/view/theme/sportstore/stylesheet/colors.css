@@ -1,0 +1,71 @@
+body { background-color:#232323;background-image:url(../images/patterns/pattern_1.png);color:#b2b2b2; }
+a { color:#b2b2b2; }
+
+/* Fonts */
+
+.orange { color:#ff6d00; }
+.custom-orange { color:#ff6d00; }
+.green { color:#92c005; }
+.white, .white a { color:#fff; }
+.grey-50 { color:#b2b2b2; }
+.grey-30 { color:#808080; }
+
+/* Top bar */
+
+div#top-bar { border-top:3px solid #ff6d00; }
+
+/* Buttons */
+
+.button-green { background:rgb(116,169,2);position:relative;background-image: linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -o-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -moz-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -webkit-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -ms-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(116,169,2)),color-stop(0.94, rgb(173,209,27)));border-radius:15px;-webkit-border-radius: 15px;-moz-border-radius: 15px;-pie-background: linear-gradient(rgb(173,209,27), rgb(116,169,2));box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.40);-webkit-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.40);-moz-box-shadow: 0px 1px 2px 1px rgba(0, 0, 0, 0.40);behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+.button-green:hover { background-image: linear-gradient(bottom, #7fb900 0%, rgb(173,209,27) 94%);background-image: -o-linear-gradient(bottom, #7fb900 0%, rgb(173,209,27) 94%);background-image: -moz-linear-gradient(bottom, #7fb900 0%, rgb(173,209,27) 94%);background-image: -webkit-linear-gradient(bottom, #7fb900 0%, rgb(173,209,27) 94%);background-image: -ms-linear-gradient(bottom, #7fb900 0%, rgb(173,209,27) 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #7fb900),color-stop(0.94, rgb(173,209,27)));-pie-background: linear-gradient(#7fb900, rgb(116,169,2));}
+.button { background:#7c7c7c;position:relative;background-image: linear-gradient(bottom, #7c7c7c 0%, #b3b3b3 94%);background-image: -o-linear-gradient(bottom, #7c7c7c 0%, #b3b3b3 94%);background-image: -moz-linear-gradient(bottom, #7c7c7c 0%, #b3b3b3 94%);background-image: -webkit-linear-gradient(bottom, #7c7c7c 0%, #b3b3b3 94%);background-image: -ms-linear-gradient(bottom, #7c7c7c 0%, #b3b3b3 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #7c7c7c),color-stop(0.94, #b3b3b3));border-radius:15px;-webkit-border-radius: 15px;-moz-border-radius: 15px;-pie-background: linear-gradient(#b3b3b3, #7c7c7c);box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.70);-webkit-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.70);-moz-box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.70);behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+.button:hover { background-image: linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -o-linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -moz-linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -webkit-linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -ms-linear-gradient(bottom, #969696 0%, #b3b3b3 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #969696),color-stop(0.94, #b3b3b3));-pie-background: linear-gradient(#b3b3b3, #969696); }
+
+/* Categories */
+
+div#categories { background:rgb(116,169,2);background-image: linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -o-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -moz-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -webkit-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -ms-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(116,169,2)),color-stop(0.94, rgb(173,209,27)));-pie-background: linear-gradient(rgb(173,209,27), rgb(116,169,2));position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+/* Submenu */
+
+div#submenu { background:#1d1d1d;background-image: linear-gradient(bottom, #1d1d1d 0%, #2b2b2b 60%);background-image: -o-linear-gradient(bottom, #1d1d1d 0%, #2b2b2b 60%);background-image: -moz-linear-gradient(bottom, #1d1d1d 0%, #2b2b2b 60%);background-image: -webkit-linear-gradient(bottom, #1d1d1d 0%, #333333 60%);background-image: -ms-linear-gradient(bottom, #1d1d1d 0%, #2b2b2b 60%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #1d1d1d),color-stop(0.6, #2b2b2b));-pie-background: linear-gradient(#2b2b2b, #1d1d1d);position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+/* Content -> Box color1 */
+
+div.box-color-1 h3.box-color-1-title { background:rgb(116,169,2);background-image: linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -o-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -moz-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -webkit-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -ms-linear-gradient(bottom, rgb(116,169,2) 0%, rgb(173,209,27) 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, rgb(116,169,2)),color-stop(0.94, rgb(173,209,27)));-pie-background: linear-gradient(rgb(173,209,27), rgb(116,169,2));position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+/* Content -> Box color2 */
+
+div.box-color-2 h3.box-color-2-title { background:#ff4e00;background-image: linear-gradient(bottom, #ff4e00 0%, #ff8900 94%);background-image: -o-linear-gradient(bottom, #ff4e00 0%, #ff8900 94%);background-image: -moz-linear-gradient(bottom, #ff4e00 0%, #ff8900 94%);background-image: -webkit-linear-gradient(bottom, #ff4e00 0%, #ff8900 94%);background-image: -ms-linear-gradient(bottom, #ff4e00 0%, #ff8900 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #ff4e00),color-stop(0.94, #ff8900));-pie-background: linear-gradient(#ff8900, #ff4e00);position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+/* Content -> Box color3 */
+
+div.box-color-3 h3.box-color-3-title { background:#7b7b7b;background-image: linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -o-linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -moz-linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -webkit-linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -ms-linear-gradient(bottom, #7b7b7b 0%, #aeaeae 94%);background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0, #7b7b7b),color-stop(0.94, #aeaeae));-pie-background: linear-gradient(#aeaeae, #7b7b7b);position:relative;behavior: url(catalog/view/theme/sportstore/js/PIE.htc); }
+
+/**
+ *  Horizontal Buttons
+ */
+.jcarousel-next-horizontal {
+    position: absolute;
+    top: 80px;
+    right: -28px;
+    width: 18px;
+    height: 47px;
+    cursor: pointer;
+    background:url(../images/right1.png), url(../images/patterns/pattern_01.png), #232323;
+    -pie-background:url(../images/right1.png), url(../images/patterns/pattern_01.png), #232323;
+	 behavior: url(catalog/view/theme/sportstore/js/PIE.htc);
+}
+
+
+.jcarousel-prev-horizontal {
+    position: absolute;
+    top: 80px;
+    left: -16px;
+    width: 16px;
+    height: 47px;
+    cursor: pointer;
+    background:url(../images/left1.png), url(../images/patterns/pattern_01.png) #232323;	 behavior: url(catalog/view/theme/sportstore/js/PIE.htc);
+}
+
+.jcarousel-skin-opencart .jcarousel-next-horizontal { top:23px;right:-13px; } 
+.jcarousel-skin-opencart .jcarousel-prev-horizontal { top:23px;left:-11px; } 

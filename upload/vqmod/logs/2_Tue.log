@@ -1,0 +1,43 @@
+---------- Date: 2015-06-30 15:58:26 ~ IP : 171.248.207.207 ----------
+REQUEST URI : /
+MOD DETAILS:
+   modFile   : /home/vandao/web/muabanxeoto24h/upload/vqmod/xml/seo_url_fix_for_news_156.xml
+   id        : SEO URL Fix for News
+   version   : 1.0
+   vqmver    : 2.1.7
+   author    : Danail Delchev
+
+File Name    : /catalog/controller/common/seo_url.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-30 16:00:48 ~ IP : 113.165.62.178 ----------
+REQUEST URI : /chevrolet-cruze?gclid=CjwKEAjw_MisBRCTuNPfoMqU4ngSJACrJv1V5KWJ3gSoxDhOft8t01Z32GqwbiaOVWXEnSIZVMkQ2xoCxeTw_wcB
+MOD DETAILS:
+   modFile   : /home/vandao/web/muabanxeoto24h/upload/vqmod/xml/seo-single-url-products-categories.xml
+   id        : SEO Single Url - Category Products
+   version   : 1
+   vqmver    : 2.1.7
+   author    : www.zadenzo.com
+
+File Name    : catalog/controller/product/category.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->url->link('product/product', 'path=' . $this->request->get['path'] . '&product_id=' . $result['product_id'])
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-06-30 19:21:49 ~ IP : 66.249.71.46 ----------
+REQUEST URI : /index.php?route=product/manufacturer/info&amp;manufacturer_id=7
+MOD DETAILS:
+   modFile   : /home/vandao/web/muabanxeoto24h/upload/vqmod/xml/seo-single-url-products-manufacturers.xml
+   id        : SEO Single Url - Category Manufacturers
+   version   : 1
+   vqmver    : 2.1.7
+   author    : www.zadenzo.com
+
+File Name    : catalog/controller/product/manufacturer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $this->url->link('product/product', $url . '&manufacturer_id=' . $result['manufacturer_id'] . '&product_id=' . $result['product_id'])
+
+----------------------------------------------------------------------
+
+
